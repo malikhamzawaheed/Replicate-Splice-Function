@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replicate Splice Function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Replicate Splice Function</h1>
+        <div class="input-section">
+            <label for="arrayInput">Array (comma-separated):</label>
+            <input type="text" id="arrayInput" placeholder="e.g., 1,2,3,4,5,6">
+            
+            <label for="startIndex">Start Index:</label>
+            <input type="number" id="startIndex" placeholder="e.g., 2">
+            
+            <label for="deleteCount">Delete Count:</label>
+            <input type="number" id="deleteCount" placeholder="e.g., 2">
+            
+            <label for="itemsToAdd">Items to Add (comma-separated):</label>
+            <input type="text" id="itemsToAdd" placeholder="e.g., 10,20">
+            
+            <button id="applyButton">Apply Splice</button>
+        </div>
+        <div class="output-section">
+            <h2>Results</h2>
+            <p><strong>Original Array:</strong> <span id="originalArray">[ ]</span></p>
+            <p><strong>Modified Array:</strong> <span id="modifiedArray">[ ]</span></p>
+            <p><strong>Removed Items:</strong> <span id="removedItems">[ ]</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
